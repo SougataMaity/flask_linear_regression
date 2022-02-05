@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: red;
+	background-size: cover;
+	
+}
+.main{
+	display: flex;
+	margin-top: 80px;
+}
+.leftside, .rightside{
+	flex-basis: 50%;
+}
+
+	
+
+.leftside{
+	margin-top: 120px;
+	text-align: center;
+
+}
+label{
+	display: inline-block;
+	width: 100px;
+	color: white;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.fa {
+
+  font-size: 20px;
+  width: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+  border-radius: 30%;
+  margin-right: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-github {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+h1{
+	color: white;
+}
+span{
+	color: deeppink;
+}
+h2{
+	color: aqua;
+}
+form h2{
+	margin-bottom: 30px;
+	color: white;
+}
+
+
+.form{
+	height: 100px;
+	width:400px;
+	border-radius: 30%;
+}
+h4{
+	text-align: center;
+	color: pink;
+}
+input{
+	width: 50px;
+}

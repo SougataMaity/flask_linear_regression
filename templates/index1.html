@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webside</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+<body style="background-image: url('static/pic.jpg');">
+	<div class="img">
+
+	<div class="main">
+		<div class = 'leftside'>
+			<h1>Linear <span>Regression </span></h1>
+			<h2><span>House Price</span> Prediction Boston Dataset <span>!!</span></h2>
+			<ul>
+				<a href="https://github.com/SougataMaity/" class="fa fa-github" target="_blank"></a>
+				<a href="https://www.linkedin.com/in/sougata-maity-sgtm/" class="fa fa-linkedin" target="_blank"></a>
+
+			</ul>
+		</div>
+		<div class = 'rightside'>
+			<form class="form" action="{{url_for('pred')}}" method="post">
+				<h2>Input Dependent variable value</h2>
+				<label for="v1">RM</label>
+	            <input id="v1" name="v1" type="number" required = 'required'><br></br>
+
+	            <label for="v2">LSTAT</label>
+	            <input id="v2" name="v2" type="number" required = 'required'><br></br>
+	            <button style="left: 50%;">Predict</button>
+	            <br></br>
+	            <h4>RM : Average Number of Rooms per Dwelling</h4>
+	            <h4>LSTAT : Percentage of Lower status of the population</h4>
+			</form>
+		</div>
+
+	</div>
+	</div>
+	<body>
+</html>
